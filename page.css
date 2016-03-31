@@ -1,10 +1,84 @@
 @charset "utf-8";
 
-body {
-    background-color: #d0e4fe;
-	font-family: Calibri, Arial, sans-serif;
+
+.header {
+    padding-top: 40px;
+    background:linear-gradient(rgba(76,185,80,.2), rgba(76, 185, 80, .2)), url("image2.jpg");
+    background-size: 100%;
+    font-family: 'Roboto',Trebuchet MS,Arial,sans-serif;
+    color: white;
+    font-size: 100%;
+    position: fixed;
+    width:100%;
+    box-shadow: 0px 2px 5px #888888;
+    min-height: 64px;
+    display: flex;
+    align-items: center;
 }
 
-a{
-	color: #003399;
+.header .container {
+    position: relative;
+}
+
+.name {
+    font-size: 400%;
+    margin-right: 5vw;
+}
+.navi {
+    position: absolute;
+    bottom: 22px;
+    left: 15;
+}
+
+#info {
+    color: white;
+    font-size: 150%;
+}
+
+#shrinker {
+    position: relative;
+    height: 20vh;
+}
+
+#spacer {
+    flex: 1;
+}
+
+#head{
+    display: flex;
+    align-items: center;
+
+}
+
+.header .container .nav{
+    font-size:100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.header a{
+    color: #C8E6C9;
+    margin-right: 30px;
+}
+
+.header td{
+    font-size: 18px;
+}
+
+.header .selected {
+    color: white;
+}
+
+
+h1 {
+    font-size: 300%;
+}
+
+table {
+    color: white;
+}
+
+#main {
+    padding-top: 10px;
+    background-color: white;
 }
