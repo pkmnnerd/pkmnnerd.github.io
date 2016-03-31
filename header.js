@@ -63,7 +63,7 @@ $(window).scroll(function()
     $('#space').height($('.header').height());
     var op = 1-((headerh-1.5*sc)/headerh*.8)
 
-    $('.header').css({'background': 'linear-gradient(rgba(76,185,80,' + op + '), rgba(76, 185, 80, ' + op + ')), url("image2.jpg")', 'background-size': '100%'});
+    $('.header').css({'background': 'linear-gradient(rgba(76,175,80,' + op + '), rgba(76, 175, 80, ' + op + ')), url("image2.jpg")', 'background-size': '100%'});
 
 
 

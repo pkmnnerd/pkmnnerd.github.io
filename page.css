@@ -7,7 +7,7 @@ body {
 
 .header {
     padding-top: 40px;
-    background:linear-gradient(rgba(76,185,80,.2), rgba(76, 185, 80, .2)), url("image2.jpg");
+    background:linear-gradient(rgba(76,175,80,.2), rgba(76, 175, 80, .2)), url("image2.jpg");
     background-size: 100%;
 
     color: white;
