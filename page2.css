@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Roboto',Trebuchet MS,Arial,sans-serif;
+    min-height: 130vh;
 }
 .header {
     background-color:#4CAF50;
